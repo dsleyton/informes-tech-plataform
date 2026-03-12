@@ -1,4 +1,4 @@
-# 🚀 Informes.tech - Plataforma de Gestión de Servicios Académicos
+#  Informes.tech - Plataforma de Gestión de Servicios Académicos
 
 Plataforma web full-stack para gestión de servicios académicos y técnicos (@informes.tech). Sistema con autenticación JWT, roles de usuario y gestión completa de pedidos.
 
@@ -27,20 +27,20 @@ Sistema de gestión para servicios académicos que permite a clientes solicitar 
 ```
 informes-tech-plataform/
 ├── config/
-│   └── db.js              # Configuración PostgreSQL
+│   └── db.js              
 ├── controllers/
-│   ├── authController.js   # Lógica autenticación
+│   ├── authController.js   
 │   ├── categoryController.js
 │   └── orderController.js
 ├── middleware/
-│   └── authMiddleware.js   # Verificación JWT
+│   └── authMiddleware.js   
 ├── routes/
 │   ├── authRoutes.js
 │   ├── categoryRoutes.js
 │   └── orderRoutes.js
-├── .env                    # Variables de entorno
+├── .env                    
 ├── .gitignore
-├── index.js               # Servidor principal
+├── index.js               #
 ├── package.json
 └── README.md
 ```
@@ -49,12 +49,12 @@ informes-tech-plataform/
 
 **PostgreSQL - Schema:**
 ```sql
-- users (usuarios del sistema)
-- categories (tipos de servicios)
-- orders (pedidos)
-- order_files (archivos de pedidos)
-- cart (carritos de compra)
-- cart_items (items del carrito)
+- users 
+- categories 
+- orders 
+- order_files 
+- cart 
+- cart_items 
 ```
 
 ##  Instalación
@@ -92,7 +92,7 @@ PORT=5000
 
 4. **Crear base de datos:**
 
-En PostgreSQL, ejecutar el schema SQL (ver documentación en `/docs`)
+En PostgreSQL, ejecutar el schema SQL 
 
 5. **Iniciar servidor:**
 ```bash
@@ -199,5 +199,3 @@ Content-Type: application/json
 Este proyecto es parte del portafolio profesional de Deyanira S. Leyton.
 
 ---
-
- Si te gusta este proyecto, ¡dale una estrella en GitHub!
